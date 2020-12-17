@@ -30,7 +30,7 @@ In this implementation, data1 is a
 dictionary and data2 is a list where
 each key-value pair in data2 is also
 a list [key, value] of length 2.
-'''
+''''
 
 def uniqueUpdate(data1, data2):
     # Initially empty dictionary
