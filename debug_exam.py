@@ -50,9 +50,9 @@ def uniqueUpdate(data1, data2):
                 dupKeys[k] = [v1, v2]
                 # Remove (k, v1) from data1
                 del data1[k]
-            else:
-                # Add (k, v2) to data1
-                data1[k] = v2
+         else:
+             # Add (k, v2) to data1
+             data1[k] = v2
     # After processing all (k, v2) in
     # data2, return the dictionary
     return dupKeys
@@ -90,7 +90,6 @@ data1
 data2 (should remain the same)
 dup (the dictionary returned)
 '''
-
 import sys
 if __name__ == '__main__':
     data1 = {}
@@ -112,3 +111,26 @@ if __name__ == '__main__':
     print(data1)
     print(data2)
     print(dup)
+    
+    
+    5c)
+    test case 1
+    4
+     1 2
+     3 3
+     3 8
+     4 9
+    2
+     3 3
+     4 4
+    test case 2
+    4
+     1 2
+     2 2
+     3 3
+     4 19
+   2
+     3 3
+     4 19
+    test case 3 
+    the test case written in 5a, which breaks the initial written code can be written
